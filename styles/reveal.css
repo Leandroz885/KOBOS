@@ -1,0 +1,33 @@
+/* Styling applied in case the slides are written with Markdown 
+Don't forget to apply the .markdown class to it! */
+
+.reveal.markdown {
+  --r-main-font-size: 30px;
+}
+
+.reveal.markdown .slides {
+  text-align: left;
+}
+
+.reveal.markdown section > ul {
+  margin-bottom: 0.2em;
+}
+
+.reveal.markdown code:not(.hljs) {
+  background-color: rgb(244, 206, 161);
+  @apply px-0.5 py-0.5;
+}
+
+.reveal.markdown pre {
+  width: 100%;
+}
+
+.reveal.markdown code.hljs {
+  white-space: pre;
+  line-height: normal;
+  @apply whitespace-pre p-4 text-2xl;
+}
+
+.reveal .progress {
+  height: 7px;
+}

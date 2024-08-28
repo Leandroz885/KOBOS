@@ -1,0 +1,17 @@
+code  {
+  background-color: rgb(238, 238, 238);
+  color: rgb(41, 41, 41) !important;
+  padding: 3px;
+}
+
+pre code {
+  padding: 0;
+}
+
+h2 {
+  margin-top: 3em;
+}
+
+/* body {
+  margin: 40px;
+} */
