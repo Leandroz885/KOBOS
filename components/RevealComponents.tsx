@@ -9,7 +9,7 @@ export const RVPresentation: (props: {
     "--r-main-font-size": "30px",
     "--r-link-color": "rgb(190 18 60)",
     backgroundImage:
-      "url(https://www.ucll.be/themes/custom/calibr8_easytheme/logo_nl.svg)",
+      "url(https://secundair.kobos.be/wp-content/uploads/2023/01/logotransparant.png)",
   } as React.CSSProperties;
   const styleSlides = {
     textAlign: "left",

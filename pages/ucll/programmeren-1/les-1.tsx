@@ -22,9 +22,9 @@ const Les = () => {
   return (
     <RVPresentation>
       <RVSlide>
-        <h2>Informaticawetenschappen</h2>
-        <h1>Les 1: introductie</h1>
-        <DownloadPdfButton routerPathName={router.pathname} />
+        <h2>Informatica wetenschappen</h2>
+        <h1>Hoofdstuk 1: introductie</h1>
+          <DownloadPdfButton routerPathName={router.pathname} /> 
       </RVSlide>
       <RVSlide>
         <h2>Overzicht</h2>
